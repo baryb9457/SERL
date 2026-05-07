@@ -1,5 +1,3 @@
 connecting via ssh:
 ssh adminkam@10.143.3.228
-
-longin:
-psw: kamakm
+psw:******
