@@ -1,7 +1,3 @@
-C'est ci est un guide complète d'installation d'un serveur linux, et un serveur fichier (samba) # librairie samba, avec sécuritésation
-
-
-
 # Créer l'utilisateur 'technicien'
 sudo adduser technicien
 
@@ -51,10 +47,10 @@ sudo ufw enable
 # 3. Vérifier le statut
 sudo ufw status
 connecting via ssh:
-ssh user@ip_address
+ssh adminkam@10.143.3.228
 
 longin:
-psw: *****
+psw: kamakm
 
 Mise à jour du serveur:
 sudo apt update && sudo apt upgrade -y
@@ -94,7 +90,7 @@ sudo apt isntall samba -y
 
 config de partage sur nano:
 sudo nano /etc/samba/smb.conf
-[Accuiel]
+[MonPartage]
    path = /home/partage_samba
    browseable = yes
    read only = no
