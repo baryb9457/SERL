@@ -51,10 +51,10 @@ sudo ufw enable
 # 3. Vérifier le statut
 sudo ufw status
 connecting via ssh:
-ssh adminkam@10.143.3.228
+ssh user@ip_address
 
 longin:
-psw: kamakm
+psw: *****
 
 Mise à jour du serveur:
 sudo apt update && sudo apt upgrade -y
